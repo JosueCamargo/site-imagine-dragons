@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f8f8f8;
+}
+
+a {
+    text-decoration: none;  
+    color:rgb(22, 22, 22);  
+}
+
+a:hover {
+    color: rgb(252, 193, 0);
+}
+
+
+
+#container {
+    width: 100%;
+    font-family: Arial;
+    color:rgb(22, 22, 22);
+}
+/*
+#header {
+    width: 100%;
+    background-color: rgb(70, 97, 155);
+    text-align: left;
+    background-image: url('../img/banner3.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+#header {
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,41,109,1) 26%, rgba(6,71,162,1) 43%, rgba(32,116,187,1) 56%, rgba(33,118,188,1) 67%, rgba(41,132,196,1) 79%, rgba(59,164,213,1) 100%);    text-align: left;
+}
+
+#mainnav {
+    width: 100%;
+    background-color: rgb(75, 95, 139); 
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#mainnav ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+    list-style-type: none;
+    border-left: 1px solid #ccc;
+}
+
+#mainnav li {
+    display: inline;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+}
+
+#mainnav li a {
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+
+#mainnav li a:hover {
+    text-decoration: none;
+    color: rgb(252, 193, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#sidebar {
+    float: right;
+    width: 20%;
+    background-color: #f8f8f8;
+    margin-top: -18px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+#sidebar ul li {
+    padding-bottom: 5px;
+}
+
+#sidebar h3 {
+    color: rgb(79, 45, 158);
+}
+
+#contents {
+    float: left;
+    width: 80%;
+    background-color: #f8f8f8;
+    margin-top: -18px;
+    border-right: 1px solid rgb(75, 95, 139);
+    box-sizing: border-box;
+}
+
+#contents img {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#footer {
+    clear: both;
+    background-color: rgb(75, 95, 139);
+    width: 100%;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+#footer span {
+    margin-right: 30px;
+}
+
+.card-noticia {
+    padding: 25px;
+}
+
+.card-noticia span {
+    font-style: italic;
+    font-size: 10px;
+    color: rgb(79, 45, 158);
+    margin-left: 3px;
+}
+
+.card-noticia h2 {
+    margin-bottom: -2px;
+}
+
+.card-noticia h2 a {
+    color: rgb(79, 45, 158);
+}
+
+.card-noticia img {
+    max-width: 100%;
+}
